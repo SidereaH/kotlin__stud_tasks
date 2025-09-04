@@ -64,15 +64,12 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/SidereaH/kotlin__stud_tasks/blob/master/gradlew.bat'>gradlew.bat</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SidereaH/kotlin__stud_tasks/blob/master/build.gradle.kts'>build.gradle.kts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SidereaH/kotlin__stud_tasks/blob/master/settings.gradle.kts'>settings.gradle.kts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -89,15 +86,15 @@
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SidereaH/kotlin__stud_tasks/blob/master/src/main/kotlin/kt2.kt'>kt2.kt</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
+								<td><code>❯ Arrays and Collections</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SidereaH/kotlin__stud_tasks/blob/master/src/main/kotlin/Main.kt'>Main.kt</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
+								<td><code>❯ Init scripts file</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SidereaH/kotlin__stud_tasks/blob/master/src/main/kotlin/kt1.kt'>kt1.kt</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
+								<td><code>❯ Cycles</code></td>
 							</tr>
 							</table>
 						</blockquote>
