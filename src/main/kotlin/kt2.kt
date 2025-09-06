@@ -11,11 +11,11 @@ class kt2 {
 Найти сумму всех чисел в массиве с помощью цикла for и функции sum().
          */
 
-        var array1 : Array<Int>  = Array(50) {0}
+        var array1 : Array<Int>  = Array(10) {0}
         var max = 0
         var min = 50
         var sum = 0
-        for (i in 0..49) {
+        for (i in 0..9) {
             array1[i] = Random.nextInt(1,50);
             println(array1[i])
             if (max < array1[i]) {
@@ -45,29 +45,33 @@ class kt2 {
 Найти сумму элементов каждой колонки и вывести отдельно.
          */
 
-        val triparr = Array(3) {  Array<Int>(3) { 0 } }
+        val triparr = Array(3) { Array(3) { 0 } }
         var allSum = 0
-        var lineSum = 0
-        var columnSum = 0
-        for(i in 0 .. triparr.size-1) {
-            println()
-            for(j in triparr[i]){
-                triparr[i][j] = Random.nextInt(1,9)
-                allSum+=triparr[i][j]
-                print(triparr[i][j].toString()+" \t")
-            }
-        }
-        println()
-        for(i in 0..triparr.size-1) {
-            for(j in 0..triparr[i].size-1) {
-                lineSum+=triparr[i][j]
 
+        for (i in triparr.indices) {
+            for (j in triparr[i].indices) {
+                triparr[i][j] = Random.nextInt(1, 10)
+                allSum += triparr[i][j]
+                print("${triparr[i][j]}\t")
             }
-            println("$i line sum = $lineSum")
-            for (j in 0..triparr[i].size-1) {
-                columnSum+=triparr[j][i]
+            println()
+        }
+        println("AllSum = $allSum\n")
+
+        for (i in triparr.indices) {
+            var lineSum = 0
+            for (j in triparr[i].indices) {
+                lineSum += triparr[i][j]
             }
-            println("$i column sum = $lineSum")
+            println("Line $i sum = $lineSum")
+        }
+
+        for (j in triparr[0].indices) {
+            var columnSum = 0
+            for (i in triparr.indices) {
+                columnSum += triparr[i][j]
+            }
+            println("Column $j sum = $columnSum")
         }
         /*
         Задание 4. Создать двумерный массив 4x4, заполнить случайными числами от 1 до
